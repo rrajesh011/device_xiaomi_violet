@@ -94,7 +94,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-#PRODUCT_BOOT_JARS += \
+PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
 # IMS
@@ -151,20 +151,8 @@ VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.class_main.sh \
-    init.msm.usb.configfs.rc \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
     init.qcom.rc \
-    init.qcom.sensors.sh \
-    init.qti.chg_policy.sh \
-    init.qcom.sh \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh \
-    init.target.rc \
-    ueventd.qcom.rc \
-    fstab.qcom \
-    init.safailnet.rc
+    fstab.qcom
 
 # RCS
 PRODUCT_PACKAGES += \
