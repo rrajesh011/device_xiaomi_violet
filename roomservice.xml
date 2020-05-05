@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="android_prebuilts_openssl" />
+  <remove-project name="android_vendor_qcom_opensource_dataservices" />
+  <project path="kernel/xiaomi/sm6150" name="ArrowOS-Devices/android_kernel_xiaomi_violet" remote="github" revision="arrow-10.0"/>
+  <project path="vendor/xiaomi/violet" name="StagOS-Devices/vendor_xiaomi_violet" remote="github" revision="sx"/>
+  <project path="hardware/qcom-caf/sm8150/audio" name="HentaiOS/platform_hardware_qcom-caf_sm8150_audio" remote="github" revision="queenslave" />
+  <project path="hardware/qcom-caf/sm8150/display" name="HentaiOS/platform_hardware_qcom-caf_sm8150_display" remote="github" revision="queenslave" />
+  <project path="hardware/qcom-caf/sm8150/media" name="HentaiOS/platform_hardware_qcom-caf_sm8150_media" remote="github" revision="queenslave" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-17.1" />    
+  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" remote="github" revision="lineage-17.1">
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+  </project>
+</manifest>

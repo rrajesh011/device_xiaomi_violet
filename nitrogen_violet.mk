@@ -13,14 +13,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Stag stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_WIFI_EXT := true
-
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := stag_violet
+PRODUCT_NAME := nitrogen_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
