@@ -1,3 +1,25 @@
 type fingerprint_data_file, data_file_type, file_type;
 type thermal_data_file, data_file_type, file_type;
 type proc_touchpanel, fs_type, proc_type;
+type vendor_audio_prop, property_type;
+type sysfs_fps_attr, fs_type, sysfs_type;
+type firmware_file, fs_type, contextmount_type;
+type vendor_tee_listener_prop, property_type;
+
+type hal_perf_default, domain, mlstrustedsubject;
+
+type persist_block_device, dev_type;
+
+type qti_init_shell, domain;
+type sysfs_usbpd_device, sysfs_type, fs_type;
+type persist_sensors_file, file_type;
+type thermal-engine, domain;
+
+type wcnss_service, domain;
+type wifi_vendor_data_file, file_type, data_file_type;
+
+type bt_firmware_file, file_type;
+
+type wcnss_service_exec, exec_type, file_type;
+
+type vendor_camera_prop, property_type;

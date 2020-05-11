@@ -10,8 +10,10 @@ LOCAL_MODULE := android.hardware.power@1.2-service.violet
 LOCAL_INIT_RC := android.hardware.power@1.2-service.violet.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/bin
+LOCAL_MODULE_STEM := android.hardware.power@1.2-service
 
-LOCAL_VENDOR_MODULE := true
+LOCAL_REQUIRED_MODULES := android.hardware.power@1.2-service.rc
 
 LOCAL_SRC_FILES := \
     hint-data.c \
@@ -45,3 +47,4 @@ LOCAL_CFLAGS += -Werror -Wall -Wno-unused-parameter
 LOCAL_CFLAGS += -DINTERACTION_BOOST
 
 include $(BUILD_EXECUTABLE)
+

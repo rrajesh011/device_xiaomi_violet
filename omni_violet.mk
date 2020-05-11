@@ -7,25 +7,23 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# Get the prebuilt list of APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Pixys stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_WIFI_EXT := true
-TARGET_INCLUDE_STOCK_ARCORE := true
+# Inherit aosp mainline system configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/mainline_system_arm64.mk)
 
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
-
-# MIUI Camera
-$(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
+PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixys_violet
+PRODUCT_NAME := omni_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
