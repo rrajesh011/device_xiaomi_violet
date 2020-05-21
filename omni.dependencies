@@ -1,0 +1,38 @@
+[
+  {
+    "repository": "ArrowOS-Devices/android_kernel_xiaomi_violet",
+    "target_path": "kernel/xiaomi/sm6150",
+    "remote": "github",
+    "revision": "arrow-10.0"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "remote": "github",
+    "revision": "lineage-17.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera2",
+    "target_path": "packages/apps/SnapdragonCamera2",
+    "revision": "android-10"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_device_qcom_caf-sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "android-10"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_vendor_qcom_opensource_commonsys",
+    "target_path": "vendor/qcom/opensource/commonsys",
+    "revision": "android-10"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_vendor_qcom_opensource_fm-commonsys",
+    "target_path": "vendor/qcom/opensource/fm-commonsys",
+    "revision": "android-10"
+  }
+]

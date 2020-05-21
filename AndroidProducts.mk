@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_violet.mk
+    $(LOCAL_DIR)/omni_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_violet-user \
-    arrow_violet-userdebug \
-    arrow_violet-eng
+    omni_violet-user \
+    omni_violet-userdebug \
+    omni_violet-eng
