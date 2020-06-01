@@ -1,105 +1,116 @@
 [
- {
-    "repository": "ArrowOS-Devices/android_kernel_xiaomi_violet",
-    "target_path": "kernel/xiaomi/sm6150",
-    "branch" : "arrow-10.0",
-    "remote" : "github"
- },
- {
-    "repository" : "DirtyUnicorns/android_hardware_qcom_thermal",
-    "target_path": "hardware/qcom-caf/thermal",
-    "branch"     : "q10x"
- },
- {
-    "repository" : "DirtyUnicorns/android_device_qcom_sepolicy",
-    "target_path": "device/qcom/sepolicy",
-    "branch"     : "q10x"
- },
- {
-    "repository": "rrajesh011/android_vendor_xiaomi_violet",
-    "target_path": "vendor/xiaomi/violet",
-    "branch" : "du-q",
-    "remote" : "github"
- },
- {
-    "repository": "DirtyUnicorns/android_vendor_qcom_opensource_audio",
-    "target_path": "vendor/qcom/opensource/audio",
-    "branch" : "q10x"
- },
- {
-   "repository" : "DirtyUnicorns/android_vendor_qcom_opensource_cryptfs_hw",
-   "target_path": "vendor/qcom/opensource/cryptfs_hw",
-   "branch"     : "q10x"
- },
- {
-    "repository": "DirtyUnicorns/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
-    "target_path": "vendor/qcom/opensource/data-ipa-cfg-mgr",
-    "branch" : "q10x"
- },
- {
-    "repository": "DirtyUnicorns/android_vendor_qcom_opensource_dataservices",
-    "target_path": "vendor/qcom/opensource/dataservices",
-    "branch" : "q10x"
- },
- {
-    "repository": "DirtyUnicorns/android_vendor_qcom_opensource_interfaces",
-    "target_path": "vendor/qcom/opensource/interfaces",
-    "branch" : "q10x"
- },
- {
-    "repository": "DirtyUnicorns/android_vendor_qcom_opensource_power",
-    "target_path": "vendor/qcom/opensource/power",
-    "branch" : "q10x"
- },
- {
-    "repository": "DirtyUnicorns/android_vendor_codeaurora_telephony",
-    "target_path": "vendor/codeaurora/telephony",
-    "branch" : "q10x"
- },
- {
-    "repository": "DirtyUnicorns/android_system_qcom",
-    "target_path": "system/qcom",
-    "branch" : "q10x"
- },
- {
-   "repository":  "gitlab.com/DirtyUnicorns/android_vendor_pixelgapps",
-   "target_path": "vendor/pixelgapps",
-   "branch":      "q10x"
- },
- {
-   "repository":  "HentaiOS/platform_hardware_qcom-caf_sm8150_media",
-   "target_path": "hardware/qcom-caf/sm8150/media",
-   "branch":      "queenslave",
-   "remote" : "github"
- },
- {
-   "repository":  "HentaiOS/platform_hardware_qcom-caf_sm8150_audio",
-   "target_path": "hardware/qcom-caf/sm8150/audio",
-   "branch":      "queenslave",
-   "remote" : "github"
- },
- {
-   "repository":  "HentaiOS/platform_hardware_qcom-caf_sm8150_display",
-   "target_path": "hardware/qcom-caf/sm8150/display",
-   "branch":      "queenslave",
-   "remote" : "github"
- },
- {
-   "repository":  "LineageOS/android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings",
-   "branch":      "lineage-17.1",
-   "remote" : "github"
- },
- {
-   "repository":  "LineageOS/android_external_ant-wireless_antradio-library",
-   "target_path": "external/ant-wireless/antradio-library",
-   "branch":      "lineage-17.1",
-   "remote" : "github"
- },
- {
-   "repository":  "LineageOS/android_external_json-c",
-   "target_path": "external/json-c",
-   "branch":      "lineage-17.1",
-   "remote" : "github"
- }
+    {
+        "repository": "ArrowOS-Devices/android_kernel_xiaomi_violet",
+        "target_path": "kernel/xiaomi/sm6150",
+        "branch": "arrow-10.0",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_hardware_qcom_thermal",
+        "target_path": "hardware/qcom-caf/thermal",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "DirtyUnicorns/android_device_qcom_sepolicy",
+        "target_path": "device/qcom/sepolicy",
+        "branch": "q10x",
+        "remote": "github"
+    },
+    {
+        "repository": "rrajesh011/android_vendor_xiaomi_violet",
+        "target_path": "vendor/xiaomi/violet",
+        "branch": "du-q",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_vendor_qcom_opensource_audio",
+        "target_path": "vendor/qcom/opensource/audio",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "DirtyUnicorns/android_vendor_qcom_opensource_cryptfs_hw",
+        "target_path": "vendor/qcom/opensource/cryptfs_hw",
+        "branch": "q10x",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+        "target_path": "vendor/qcom/opensource/data-ipa-cfg-mgr",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_vendor_qcom_opensource_dataservices",
+        "target_path": "vendor/qcom/opensource/dataservices",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_vendor_qcom_opensource_interfaces",
+        "target_path": "vendor/qcom/opensource/interfaces",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "PixelExperience/android_vendor_qcom_opensource_power",
+        "target_path": "vendor/qcom/opensource/power",
+        "branch": "ten",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_vendor_codeaurora_telephony",
+        "target_path": "vendor/codeaurora/telephony",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_system_qcom",
+        "target_path": "system/qcom",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "DirtyUnicorns/android_vendor_pixelgapps",
+        "target_path": "vendor/pixelgapps",
+        "branch": "q10x",
+        "remote": "gitlab"
+    },
+    {
+        "repository": "HentaiOS/platform_hardware_qcom-caf_sm8150_media",
+        "target_path": "hardware/qcom-caf/sm8150/media",
+        "branch": "queenslave",
+        "remote": "github"
+    },
+    {
+        "repository": "HentaiOS/platform_hardware_qcom-caf_sm8150_audio",
+        "target_path": "hardware/qcom-caf/sm8150/audio",
+        "branch": "queenslave",
+        "remote": "github"
+    },
+    {
+        "repository": "HentaiOS/platform_hardware_qcom-caf_sm8150_display",
+        "target_path": "hardware/qcom-caf/sm8150/display",
+        "branch": "queenslave",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_packages_resources_devicesettings",
+        "target_path": "packages/resources/devicesettings",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_external_ant-wireless_antradio-library",
+        "target_path": "external/ant-wireless/antradio-library",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    },
+    {
+        "repository": "LineageOS/android_external_json-c",
+        "target_path": "external/json-c",
+        "branch": "lineage-17.1",
+        "remote": "github"
+    }
 ]
