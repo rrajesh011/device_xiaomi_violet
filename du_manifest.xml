@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/xiaomi/sm6150" remote="github" name="ArrowOS-Devices/android_kernel_xiaomi_violet" revision="arrow-10.0" />
+  <project path="hardware/qcom-caf/thermal" remote="github" name="LineageOS/android_hardware_qcom_thermal" revision="lineage-17.1" />
+  <project path="device/qcom/sepolicy" remote="github" name="DirtyUnicorns/android_device_qcom_sepolicy" revision="q10x" />
+  <project path="vendor/xiaomi/violet" remote="github" name="rrajesh011/vendor_xiaomi_violet" revision="du-q" />
+  <project path="vendor/qcom/opensource/audio" remote="github" name="LineageOS/android_vendor_qcom_opensource_audio" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" remote="github" name="DirtyUnicorns/android_vendor_qcom_opensource_cryptfs_hw" revision="q10x" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/dataservices" remote="github" name="LineageOS/android_vendor_qcom_opensource_dataservices" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/interfaces" remote="github" name="LineageOS/android_vendor_qcom_opensource_interfaces" revision="lineage-17.1" />
+  <project path="vendor/qcom/opensource/power" remote="github" name="PixelExperience/vendor_qcom_opensource_power" revision="ten" />
+  <project path="vendor/codeaurora/telephony" remote="github" name="LineageOS/android_vendor_codeaurora_telephony" revision="lineage-17.1" />
+  <project path="system/qcom" remote="github" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
+  <project path="vendor/pixelgapps" remote="gitlab" name="DirtyUnicorns/android_vendor_pixelgapps" revision="q10x" />
+  <project path="hardware/qcom-caf/sm8150/media" remote="github" name="HentaiOS/platform_hardware_qcom-caf_sm8150_media" revision="queenslave" />
+  <project path="hardware/qcom-caf/sm8150/audio" remote="github" name="HentaiOS/platform_hardware_qcom-caf_sm8150_audio" revision="queenslave" />
+  <project path="hardware/qcom-caf/sm8150/display" remote="github" name="HentaiOS/platform_hardware_qcom-caf_sm8150_display" revision="queenslave" />
+  <project path="packages/resources/devicesettings" remote="github" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.1" />
+  <project path="external/ant-wireless/antradio-library" remote="github" name="LineageOS/android_external_ant-wireless_antradio-library" revision="lineage-17.1" />
+  <project path="external/json-c" remote="github" name="LineageOS/android_external_json-c" revision="lineage-17.1" />
+</manifest>
+
